@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5340171e-2c36-4d0f-a08e-a2a7c583f4be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/alex/ThreadStop.java" afterPath="$PROJECT_DIR$/src/com/alex/ThreadStop.java" />
     </list>
@@ -32,11 +31,11 @@
       <file leaf-file-name="ThreadStop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/alex/ThreadStop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+            <state relative-caret-position="308">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="35" />
               <folding>
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +44,8 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="494" column="24" lean-forward="false" selection-start-line="494" selection-start-column="24" selection-end-line="494" selection-end-column="24" />
+            <state relative-caret-position="-325">
+              <caret line="729" column="7" lean-forward="false" selection-start-line="729" selection-start-column="4" selection-end-line="729" selection-end-column="7" />
               <folding>
                 <element signature="e#38375#38376#0" expanded="true" />
                 <element signature="e#38420#38421#0" expanded="true" />
@@ -120,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>groups</find>
+      <find>run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -682,12 +682,12 @@
       <option name="presentableId" value="Default" />
       <updated>1646206318406</updated>
       <workItem from="1646206320144" duration="6293000" />
-      <workItem from="1646268965885" duration="5771000" />
+      <workItem from="1646268965885" duration="8968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12064000" />
+    <option name="totallyTimeSpent" value="15261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
@@ -813,17 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="494" column="24" lean-forward="false" selection-start-line="494" selection-start-column="24" selection-end-line="494" selection-end-column="24" />
-          <folding>
-            <element signature="e#38375#38376#0" expanded="true" />
-            <element signature="e#38420#38421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ThreadGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -840,13 +829,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.Thread">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.Thread</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">java.lang.Thread</node>
+            <node x="" y="">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="134.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="729" column="7" lean-forward="false" selection-start-line="729" selection-start-column="4" selection-end-line="729" selection-end-column="7" />
+          <folding>
+            <element signature="e#38375#38376#0" expanded="true" />
+            <element signature="e#38420#38421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alex/ThreadStop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        <state relative-caret-position="308">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="35" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
