@@ -42,7 +42,7 @@ public class ThreadStop{
         /**
          * 如果线程正在调用 Object class 的 wait()、wait(long)或者wait(long,int)方法、join()、join(long，int)或者sleep(long,int)
          * 方法时被阻塞，那么interrupt会生效，该线程的中断状态会被清除，抛出InterruptedException异常。
-         * 如果
+         *
           */
 
         stopT.interrupt();
@@ -77,5 +77,6 @@ public class ThreadStop{
         Thread.sleep(3000L);
         flag = false;
         System.out.println("程序运行结束");
+        //或者cpu核心
     }
 }
