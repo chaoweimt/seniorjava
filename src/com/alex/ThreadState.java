@@ -72,5 +72,28 @@ public class ThreadState {
         Thread.sleep(3000L);  // 等待3秒，让thread3执行完毕，再看状态
         System.out.println("等待3秒，再看thread3的当前状态："+thread3.getState().toString());
 
-        // 第四种线程状态：新建 -> 运行 ->
+        // 第四种线程状态：新建 -> 运行 ->  定时等待 -> 运行   -> 终止
+
+        System.out.println("#### 第四种线程状态 ：新建 -> 运行 ->  定时等待 -> 运行   -> 终止 #########");
+        Thread thread4  = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(1000L);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("thread4 当前状态："+ Thread.currentThread().getState().toString());
+                System.out.println("thread4 执行了");
+            }
+        });
+
+        System.out.println("没调用start方法，thread4的当前状态："+thread4.getState().toString());
+        thread4.start();
+        System.out.println("调用start方法，thread4的当前状态："+thread4.getState().toString());
+        Thread.sleep(100);//等待100毫秒，在看状态
+        System.out.println("等待100毫秒，在看状态，thread4的当前状态："+thread4.getState().toString());
+
+        Thread.sleep(2000);//等待2秒，在看状态
+        System.out.println("等待2秒，在看状态，thread4的当前状态："+thread4.getState().toString());
     }}
