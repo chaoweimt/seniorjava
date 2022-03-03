@@ -77,6 +77,5 @@ public class ThreadStop{
         Thread.sleep(3000L);
         flag = false;
         System.out.println("程序运行结束");
-
     }
 }
